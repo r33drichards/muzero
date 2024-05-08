@@ -41,7 +41,7 @@ flags.DEFINE_bool('clip_reward', True, 'Clip reward in the range [-1, 1], defaul
 flags.DEFINE_bool('done_on_life_loss', True, 'End of game if loss a life, default on.')
 flags.DEFINE_integer('num_actors', 6, 'Number of self-play actor processes.')
 
-flags.DEFINE_integer('num_training_steps', int(10e6), 'Number of traning steps.')
+flags.DEFINE_integer('num_training_steps', int(10e7), 'Number of traning steps.')
 flags.DEFINE_integer('batch_size', 128, 'Batch size for traning.')
 flags.DEFINE_integer('replay_capacity', int(1e6), 'Maximum replay size.')
 flags.DEFINE_integer('min_replay_size', 10000, 'Minimum replay size before start to do traning.')

@@ -5,6 +5,7 @@ absl-py==1.0.0
 
 # Gym environment
 gym==0.23.1
+# gymnasium[all,accept-rom-license]
 ale-py==0.7.4
 AutoROM==0.4.2
 AutoROM.accept-rom-license==0.4.2
@@ -25,3 +26,4 @@ python-snappy==0.6.0
 # Coding styles and others
 pre-commit==2.17.0
 black==22.1.0
+tensorboard
